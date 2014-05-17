@@ -1,4 +1,5 @@
-data
+Data Repository 
 ====
 
-Data For Projects
+Various Data For Projects
+* Stored As JSON, GeoJSON, TopoJSON
