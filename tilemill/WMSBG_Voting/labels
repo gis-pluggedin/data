@@ -1,0 +1,17 @@
+@font: "Microsoft Sans Serif Regular";
+#votinglabels{
+text-face-name:@font;
+text-halo-radius:1;
+text-placement:interior;
+text-name:"''";
+text-size: 20;
+ [zoom>=13]{
+    text-name:"[Precinct]";
+    //text-fill:spin(darken(@parks,50),-15);
+    text-fill:@voting;
+    //text-halo-fill:lighten(@parks,15);
+    text-halo-fill:white;
+    //[zoom>=15] {text-size:11;}
+    //[zoom>=16] {text-size:12;}
+  }
+  }

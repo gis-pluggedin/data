@@ -1,0 +1,123 @@
+{
+  "bounds": [
+    -76.7443,
+    37.2455,
+    -76.6599,
+    37.3179
+  ],
+  "center": [
+    -76.705,
+    37.2704,
+    13
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 13,
+  "maxzoom": 18,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss",
+    "labels"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -76.74359558632617,
+        37.24838443511457,
+        -76.66306682059471,
+        37.3089201822237
+      ],
+      "id": "zonebyparcel",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Projects\\GISi\\Plugged In 2014\\WMBRG GIS\\Zoning\\ZoneByParcel.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "zonebyparcel"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -76.74246930081854,
+        37.24871831174021,
+        -76.66633967929619,
+        37.316044448685915
+      ],
+      "id": "buildings",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Projects\\GISi\\Plugged In 2014\\WMBRG GIS\\Buildings\\Buildings.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "buildings"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -76.74246930081854,
+        37.24871831174021,
+        -76.66633967929619,
+        37.316044448685915
+      ],
+      "id": "buildingslabels",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Projects\\GISi\\Plugged In 2014\\WMBRG GIS\\Buildings\\Buildings.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "buildingslabels"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -76.74359559529205,
+        37.24838404991953,
+        -76.66306911678474,
+        37.30891983258593
+      ],
+      "id": "parcels",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Projects\\GISi\\Plugged In 2014\\WMBRG GIS\\Parcels\\Parcels.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "parcels"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -76.74359558632617,
+        37.24838443511457,
+        -76.66306682059471,
+        37.3089201822237
+      ],
+      "id": "zoninglabels",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Projects\\GISi\\Plugged In 2014\\WMBRG GIS\\Zoning\\ZoneByParcel.shp",
+        "id": "zoninglabels",
+        "project": "WMSBG_Parcels",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "zoninglabels"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "",
+  "name": "Williamsburg Parcels",
+  "description": "",
+  "attribution": ""
+}

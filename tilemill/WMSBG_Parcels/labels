@@ -1,0 +1,35 @@
+@font: "Microsoft Sans Serif Regular";
+
+#buildingslabels{
+text-face-name:@font;
+text-halo-radius:1;
+text-placement:interior;
+text-name:"''";
+  [Type='Gov'][zoom>=16]{
+    text-name:"[Name]";
+    //text-fill:spin(darken(@parks,50),-15);
+    text-fill:@bldgs;
+    //text-halo-fill:lighten(@parks,15);
+    text-halo-fill:white;
+    //[zoom>=15] {text-size:11;}
+    [zoom>=16] {text-size:12;}
+  }
+  }
+
+#zoninglabels{
+text-face-name:@font;
+text-halo-radius:1;
+text-placement:interior;
+text-name:"''";
+text-size: 20;
+  //[Type='Gov']
+  [zoom>=16]{
+    text-name:"[A_Zone]";
+    text-fill:spin(darken(@zoning,20),-15);
+    text-fill:@zoning;
+    //text-halo-fill:lighten(@parks,15);
+    text-halo-fill:white;
+    //[zoom>=15] {text-size:11;}
+    [zoom>=16] {text-size:20;}
+  }
+  }

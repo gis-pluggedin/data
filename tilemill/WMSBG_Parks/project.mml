@@ -1,0 +1,138 @@
+{
+  "bounds": [
+    -76.7532,
+    37.2347,
+    -76.6599,
+    37.3527
+  ],
+  "center": [
+    -76.6956,
+    37.2981,
+    10
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 10,
+  "maxzoom": 18,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss",
+    "labels"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -76.73740448020419,
+        37.254510039137834,
+        -76.68160799189474,
+        37.292649032824364
+      ],
+      "id": "athleticfields",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Projects\\GISi\\Plugged In 2014\\WMBRG GIS\\Athletic Fields\\AthleticFields.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "athleticfields"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -76.73858276378084,
+        37.25211591035672,
+        -76.68008576629852,
+        37.31789845002211
+      ],
+      "id": "citytrails",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Projects\\GISi\\Plugged In 2014\\WMBRG GIS\\City Trails\\CityTrails.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "citytrails"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -76.73921581958733,
+        37.2511937647501,
+        -76.67972214570581,
+        37.33896271990925
+      ],
+      "id": "parks",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Projects\\GISi\\Plugged In 2014\\WMBRG GIS\\Parks\\Parks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "parks"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -76.73740448020419,
+        37.254510039137834,
+        -76.68160799189474,
+        37.292649032824364
+      ],
+      "id": "athleticfieldslabels",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Projects\\GISi\\Plugged In 2014\\WMBRG GIS\\Athletic Fields\\AthleticFields.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "athleticfieldslabels"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -76.73858276378084,
+        37.25211591035672,
+        -76.68008576629852,
+        37.31789845002211
+      ],
+      "id": "citytrailslabels",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Projects\\GISi\\Plugged In 2014\\WMBRG GIS\\City Trails\\CityTrails.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "citytrailslabels"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -76.73921581958733,
+        37.2511937647501,
+        -76.67972214570581,
+        37.33896271990925
+      ],
+      "id": "parkslabels",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Projects\\GISi\\Plugged In 2014\\WMBRG GIS\\Parks\\Parks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "parkslabels"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "",
+  "name": "Williamsburg Parks",
+  "description": "",
+  "attribution": ""
+}
